@@ -1,6 +1,3 @@
-أكيد، تفضل ملف README.md كامل ومرتب داخل أكواد باكتيك (\`\`\`) عشان تقدر تنسخه بسهولة:
-
-````markdown
 # Discord DM Cleaner Tool
 
 Advanced Discord DM Cleaner Tool — a Python script to help you delete your own messages in Discord direct messages (DMs) and group chats.
@@ -33,7 +30,7 @@ Advanced Discord DM Cleaner Tool — a Python script to help you delete your own
 2. Install required Python packages:  
    ```bash
    pip install requests colorama
-````
+   ```
 
 3. Run the tool:
 
@@ -67,5 +64,3 @@ Feel free to fork and improve, but please keep it respectful and lawful.
 ## 📞 Contact
 
 For questions or help, open an issue on GitHub.
-
-
