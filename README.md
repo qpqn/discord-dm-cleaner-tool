@@ -48,7 +48,7 @@ This batch file runs the Python script and keeps the window open so you can see 
 1. Open Discord in your **browser** (Chrome, Firefox, or Edge).  
 2. Press `Ctrl+Shift+I` (or `Cmd+Option+I` on Mac) to open Developer Tools.  
 3. Click on the **Application** tab.  
-4. In the left sidebar, expand **Local Storage** and select `https://discord.com`.  
+4. In the left sidebar, expand **Local Storage** and select `https://discord.com/app`.  
 5. In the storage keys list, find the key named `token`.  
 6. Copy the token value exactly (do **not** share it with anyone).  
 7. Paste it in the tool when prompted.
