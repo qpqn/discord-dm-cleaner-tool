@@ -1,6 +1,6 @@
 # Discord DM Cleaner Tool
 
-Advanced Discord DM Cleaner Tool — a Python script to help you delete your own messages in Discord direct messages (DMs) and group chats.
+Advanced Discord DM Cleaner Tool, a Python script to help you delete your own messages in Discord direct messages (DMs) and group chats.
 
 ---
 
