@@ -1,6 +1,6 @@
 # Discord DM Cleaner Tool
 
-Advanced Discord DM Cleaner Tool, a Python script to help you delete your own messages in Discord direct messages (DMs) and group chats.
+Advanced Discord DM Cleaner Tool — a Python script to help you delete your own messages in Discord direct messages (DMs) and group chats.
 
 ---
 
@@ -24,20 +24,51 @@ Advanced Discord DM Cleaner Tool, a Python script to help you delete your own me
 
 ---
 
-## 🚀 Getting Started
+## 🏃‍♂️ How to Run
 
-1. Clone or download this repository.  
-2. Install required Python packages:  
-   ```bash
-   pip install requests colorama
-   ```
+You can run the tool in two ways:
 
-3. Run the tool:
+- **Using Python directly:**
 
-   ```bash
-   python cleaner.py
-   ```
-4. Follow the on-screen prompts.
+  Open your terminal or CMD in the folder, then run:
+  ```bash
+  python cleaner.py
+  ```
+
+* **Using the batch file (Windows only):**
+
+  Simply double-click on `run.bat` to launch the tool with a command prompt window.
+
+This batch file runs the Python script and keeps the window open so you can see the output.
+
+---
+
+## 🔐 How to Get Your Discord Token Safely
+
+1. Open Discord in your browser (preferably not the app).
+2. Press `Ctrl+Shift+I` (or `Cmd+Option+I` on Mac) to open Developer Tools.
+3. Go to the "Network" tab and reload the page.
+4. Look for any request with a header called `authorization`.
+5. Copy the token value exactly (do not share it).
+6. Paste it in the tool when asked.
+
+*⚠️ Keep your token secret! Never share it with anyone.*
+
+---
+
+## 🔍 How to Find Channel ID
+
+* Enable Developer Mode in Discord: Settings > Advanced > Developer Mode.
+* Right-click on the DM, group, or server channel you want to clean.
+* Click "Copy ID" and paste it into the tool when prompted.
+
+---
+
+## ⏳ Notes on Deletion Speed
+
+* Discord enforces rate limits on how fast you can delete messages.
+* The tool waits between deletions to avoid bans.
+* For large numbers of messages, the process may take some time. Please be patient.
 
 ---
 
@@ -45,7 +76,6 @@ Advanced Discord DM Cleaner Tool, a Python script to help you delete your own me
 
 * You need your Discord token to authenticate (do **not** share it).
 * The tool deletes **only your own messages**.
-* To find a Channel ID: enable Discord Developer Mode (Settings > Advanced) then right-click on the channel or DM.
 
 ---
 
